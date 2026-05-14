@@ -9,7 +9,7 @@ arduino = serial.Serial('COM6', 9600)
 time.sleep(2)
 
 # Load model
-model = load_model("emotion_model.h5")
+model = load_model("Models/emotion_model.h5")
 
 # Emotion labels
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
